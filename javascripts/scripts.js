@@ -18,19 +18,17 @@ $(function(){
     } else if (x >= 650 && x <= 776) {
       image.attr('src','img/head1.jpg');
     }
-// 140 - 267
-// 268 - 394
-// 395 - 522
-// 523 - 649
-// 650 - 776
   });
 });
-
-
-
 
 $(document).foundation();
 
 document.write('<script src=' +
   ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>');
+
+// 140 - 267
+// 268 - 394
+// 395 - 522
+// 523 - 649
+// 650 - 776
