@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width">
   <title>id-driven</title>
   <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheets/styles.css">
   <script src="javascripts/jquery.js"></script>
   <script src="javascripts/vendor/custom.modernizr.js"></script>
@@ -30,153 +31,72 @@
   <script src="javascripts/scripts.js"></script>
 </head> 
 <body>
-<div class="contain-to-grid fixed">
-  <nav class="top-bar hide-for-small" style="">
-          <ul class="title-area">
-            <!-- Title Area -->
-            <li class="name">
-              <h1>
-                <a href="#">
-                  id-driven
-                </a>
-              </h1>
-            </li>
-            <li class="toggle-topbar"><a href="#"></a></li>
-          </ul>
 
 
-          <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-              <li class="has-dropdown">
-                <a href="#">Previous Work</a>
-                <ul class="dropdown">
-                  <li><a href="http://inkerage.herokuapp.com">Inkerage</a></li>
-                  <li><a href="http://byeny.herokuapp.com">ByeNY</a></li>
-                  <li><a href="#">Parallax</a></li>
-                  <li><a href="">General Assembly</a></li>
-                </ul>
-              </li>
-              <li class="has-dropdown">
-                <a href="#">Hobbies</a>
-                <ul class="dropdown">
-                  <li><a href="#">Photography</a></li>
-                  <li><a href="#">Cycling</a></li>
-                  <li><a href="#">Technology</a></li>
-                  <li><a href="#">Nature</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="http://www.zurb.com/jobs">Journey Thus Far</a>
-              </li>
-              
-
-              <!-- <li class="logged-in has-dropdown">
-                <a href="#">
-                  <div class="avatar">
-                    <img src="img/headshot.nef">
-                    User-Name Here
-                  </div>
-                </a>
-                <ul class="dropdown">
-                  <li><a href="#"><img src="http://placehold.it/20x20&text=N">Notable</a></li>
-                  <li><a href="#"><img src="http://placehold.it/20x20&text=S">Solidify</a></li>
-                  <li><a href="#"><img src="http://placehold.it/20x20&text=V">Verify</a></li>
-                  <li><a href="#"><img src="http://placehold.it/20x20&text=I">Influence</a></li>
-                  <li class="signout"><a href="#">Sign Out</a></li>
-                </ul>
-              </li> -->
-        
-
-            </ul>
-          </section>
-        </nav>
+<div class="homebanner" id="home-img">
+  <img src="img/bkgrd.jpg" id="bkgrd" alt="nature parallax">
+  <div id="banner-text">
+    <h2 class="tag-line">Id-driven</h2>
+    <p class="tag-line">Tree-Hugging-Full-Stack Developer</p>
+  </div>
 </div>
 	<div class="row">
-		<div class="large-12 columns">
-			<h1>About this guy: Winson Yuan</h1>
-			<p></p>
+		<div class="twelve columns">
+			<h3 class="title">Recent Projects</h3>
 			<hr />
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="large-8 columns">
-			<h3>The Bio</h3>
-      <div id="coords"></div>
-      <div id="headshot">
-        <a href="#">
-          <img id="face" src="img/head3.jpg" onmouseout="this.src='img/head3.jpg'" /></a>
-      </div>
-      <!-- <img src="img/bike.jpg" alt=""> -->
-			<!-- Grid Example -->
-			<!-- <div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div> -->
-
-			
-
       <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Button</a></p>
-          <!-- <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p> -->
+        <div class="four columns projects-1">
+          <a href="http://byeny.herokuapp.com"><img src="img/byeny.png" class="projects" alt="BYE-NY"></a>
+          <h4>BYE NY</h4>
+          <p>Data Visualization of Flights</p>   
         </div>
-        <!-- <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div> -->
+        <div class="four columns projects-2">
+          <a href="#"><img src="img/heartbeat.png" class="projects" alt="heartbeat ink"></a>
+          <h4>Heartbeat Ink</h4>
+          <p>Best tattoo artist on the east coast</p>
+        </div>
+        <div class="four columns projects-3">
+          <a href="http://inkerage.herokuapp.com"><img src="img/inkerage.png" class="projects" alt="heartbeat ink"></a>
+          <h4>Inkerage</h4>
+          <p>Very first web app using Tumblr API</p>
+        </div>
       </div>
-		</div>
-
-		<div class="large-4 columns">
-			<h4>My Journey</h4>
-			<p>One day I decided I really wanted to be a programmer.</p>
-
-			<h4>Other Resources</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, quae, quidem ratione voluptas suscipit sit obcaecati odio debitis dicta corrupti perferendis velit quam maxime accusantium exercitationem eveniet doloribus odit magni.</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Lorem</a><br />Lorem</li>
-				<li><a href="http://github.com/zurb/foundation">Something</a><br />git.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, aut, quo accusantium suscipit nam eius ea mollitia incidunt sapiente aperiam itaque ratione fugiat quam qui obcaecati minima doloribus vel nobis!</li>
-			</ul>
-		</div>
+    </div>
 	</div>
-  
+<div class="row">
+  <div class="twelve columns">
+    <h3 class="title">Skills</h3>
+    <hr />
+     <div class="row">
+      <div class="four columns skills-icon"><i class="fa fa-caret-square-o-down fa-5x"></i><h4>Ruby</h4></div>
+      <div class="four columns skills-icon"><h1>{JS}</h1><h4>JavaScripts</h4></div>
+      <div class="four columns skills-icon"><i class="fa fa-html5 fa-5x"></i><h4>HTML5</h4></div>
+      <div class="four columns skills-icon"><i class="fa fa-css3 fa-5x"></i><h4>CSS3</h4></div>
+      <div class="four columns skills-icon"></div>
+    </div>
+  </div>
+</div>
+	<div class="row">
+    <div class="large-12 columns">
+      <h3 class="title">The Bio</h3>
+        <hr />
+  		<div class="large-8 columns">
+        <div id="headshot">
+        <div id="coords"></div>
+          <a href="#">
+            <img id="face" src="img/head3.jpg" onmouseout="this.src='img/head3.jpg'" /></a>
+        </div>
+        <div class="large-4 columns">
+          <h4>My Journey</h4>
+          <p>One day I decided I really wanted to be a programmer. It dawned on me one day that programming is everywhere and everyone needs to know how to program!</p>
+        </div>
+  		</div>
+    </div>
+	</div>
+
+  <div class="bottom-nav"></div>
   
 </body>
 </html>
+
+

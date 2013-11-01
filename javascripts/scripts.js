@@ -1,3 +1,5 @@
+///////// interactive image ////////////
+
 var image;
 
 $(function(){
@@ -20,6 +22,13 @@ $(function(){
     }
   });
 });
+// 140 - 267
+// 268 - 394
+// 395 - 522
+// 523 - 649
+// 650 - 776
+
+//////////////// foundation ///////////////////
 
 $(document).foundation();
 
@@ -27,8 +36,47 @@ document.write('<script src=' +
   ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>');
 
-// 140 - 267
-// 268 - 394
-// 395 - 522
-// 523 - 649
-// 650 - 776
+///////////////// parallax ///////////
+
+$(document).ready(function() {
+    $(window).scroll(function(e){
+      parallax();
+    });
+    function parallax() {
+      var scrolled = $(window).scrollTop();
+      $('#banner-text').css('top', -(scrolled * .19) + 'px');
+    }
+  });
+
+
+/////////////// top nav //////////////
+$(window).scroll(function() { 
+  if ($(this).scrollTop() > 600) {
+    $('#top-nav').fadeIn();
+  } else {
+    $('#top-nav').fadeOut();
+  }
+});
+
+
+////////////// homebanner /////////////
+
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 200) {
+    $('#banner-text').fadeOut(900);
+  } else {
+    $('#banner-text').fadeIn(500);
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
