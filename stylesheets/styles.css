@@ -35,6 +35,7 @@
 }
 
 .tag-line {
+  font-family: Helvetica;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -62,6 +63,7 @@ html {
 }
 
 .title {
+  font-family: Geneva;
   text-align: center;
   margin-top: 15px;
 }
@@ -83,9 +85,9 @@ html {
   display: block;
 }
 
-.project-img {
+/*.project-img {
   border-radius: 15px;
-}
+}*/
 
 .skills-icon {
   /*border: 1px solid;*/
