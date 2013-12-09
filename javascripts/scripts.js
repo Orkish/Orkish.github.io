@@ -59,7 +59,35 @@ $(window).scroll(function() {
   }
 });
 
-///////////// Chart ////////////////
+///////////// display text ////////////////
+
+$(document).ready(function(){
+  $("#show1").click(function(){
+    $("#display-text1").stop().toggle("slow");
+  }),
+  $("#show2").click(function(){
+    $("#display-text2").stop().toggle("slow");
+  }),
+  $("#show3").click(function(){
+    $("#display-text3").stop().toggle("slow");
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

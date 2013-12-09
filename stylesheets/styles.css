@@ -15,7 +15,7 @@ body {
 }
 
 .homebanner {
-  background: url(img/rustedchain.jpg) center center fixed;
+  background: url(img/bikelights.jpg) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -57,9 +57,14 @@ html {
   margin: 0px;
 }*/
 
+.title {
+  font-family: "Lato";
+  text-align: center;
+  margin-top: 15px;
+}
+
 #content-section1 {
-  padding-top: 55px;
-  padding-bottom: 100px;
+  padding: 30px 0 30px 0;
 }
 
 #content-section2 {
@@ -67,18 +72,10 @@ html {
   padding-bottom: 50px;
 }
 
-.title {
-  font-family: Geneva;
-  text-align: center;
-  margin-top: 15px;
-}
-
 .projects {
   /*border: 1px solid;*/
-  width: 300px;
-  height: 200px;
+  margin: 50px 0 50px 0;
   text-align: center;
-  margin: 0 15px 0 15px;
 }
 
 .projects .bottom,
@@ -90,9 +87,63 @@ html {
   display: block;
 }
 
-/*.project-img {
+#proj-3 {
+  float: left;
+}
+
+#show1 {
   border-radius: 15px;
+  margin-top: 10px;
+}
+
+#show2 {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+#show3 {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+#display-text1 {
+  /*background-color: rgba(255, 20, 147, .3);*/
+  display: none;
+  padding: 10px;
+}
+
+#display-text2 {
+  /*background-color: rgba(255, 20, 147, .3);*/
+  display: none;
+  padding: 10px;
+}
+
+#display-text3 {
+  /*background-color: rgba(255, 20, 147, .3);*/
+  display: none;
+  padding: 10px;
+}
+
+button {
+  outline: 0;
+}
+
+/*
+.copy {
 }*/
+
+.project-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;  
+}
+
+
+
+div p {
+  text-align: left;
+}
 
 .skills-icon {
   /*border: 1px solid;*/

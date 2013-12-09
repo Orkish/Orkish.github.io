@@ -51,30 +51,45 @@
   		<hr />
       <div class="row" id="content-section1">
         <div class="four columns projects">
-          <a href="http://byeny.herokuapp.com" target="_Blank">
+          <a class="proj-img" href="http://byeny.herokuapp.com" target="_Blank">
             <img src="stylesheets/img/byeny.png" class="top project-img" alt="">
             <img src="stylesheets/img/byeny1.png" class="bottom project-img" alt="">
           </a>
-          <h4 class="title">BYE NY</h4>
-          <p>Data Visualization of Flights</p>   
+          <button id="show1">BYE NY</button>
+          <div id="display-text1">
+            <p>
+              BYE NY is an interactive infographic application that shows all flights departing from the three major airports in and around New York; Newark Int’l Airport, LaGuardia Airport and JFK Airport. Flight colors are based on destination country and are displayed in 15 minutes “bursts”. 
+            <br>
+              The application is built with Ruby and a Rails3 framework. The map was created using SVG (Scalable Vector Graph) and the flight lines were created using a d3.js canvas and data visualization. The data was taken from an API provided by www.flightstats.com which was then parsed to show only departing flights and relavant information. Front-end was built with CSS3 and JavaScript. 
+
+            </p>
+          </div>
         </div>
         <div class="four columns projects">
           <a href="http://pool-party.herokuapp.com" target="_Blank">
             <img src="stylesheets/img/poolparty1.png" class="top project-img" alt="">
             <img src="stylesheets/img/poolparty2.png" class="bottom project-img" alt="">
           </a>
-          <h4 class="title">Pool Party!</h4>
-          <p>
-            Carpool app built on Rails 4
-          </p>
+          <button id="show2">Pool Party!</button>
+          <div id="display-text2">
+            <p>
+              Pool Party was created to help alleviate the insecurities and fear of carpooling with strangers. The app allow users to create a "trip" that would be visible to other users. Users would then be able to view profiles and give rating feedback/rating to other users. This helps save money and the planet!
+              <br>
+              This app was built with Ruby on a Rails4 framework. Utilizes the latest of HTML5 and CSS3 technologies to create a welcoming user experience for the users. All users are requried to sign up with proper credentials to help ensure the safety of the users through devise authentication. Through the use of Twilio's API we are able to make request as simple as sending a request via SMS messaging to your mobile phone. 
+            </p>
+          </div>
         </div>
-        <div class="four columns projects" id="proj-2">
+        <div class="columns projects" id="proj-3">
           <a href="http://heartbeatink.herokuapp.com" target="_Blank">
             <img src="stylesheets/img/heartbeat.png" class="bottom project-img" alt="">
             <img src="stylesheets/img/heartbeat1.png" class="top project-img" alt="">
           </a>
-          <h4 class="title">Heartbeat Ink</h4>
-          <p>Aspiring tattoo artist from the NY/NJ area</p>
+          <button id="show3">Heartbeat Ink</button>
+          <div id="display-text3">
+            <p>
+              Aspiring tattoo artist from the NY/NJ area
+            </p>
+          </div>
         </div>
       </div>
     </div>
