@@ -40,54 +40,60 @@
       Id-driven
     </h2>
       <p class="tag-line">
-        Lover of technology and sustainability
+        Web developer turning imagination into reality
       </p>
   </div>
 </div>
 <div class="container">
   <div class="row">
   	<div class="twelve columns">
-  		<h3 class="title">Recent Projects</h3>
+  		<h3 class="title" id="recent-projects">Recent Projects</h3>
   		<hr />
       <div class="row" id="content-section1">
+        Please click on image to visit actual site*
         <div class="four columns projects">
           <a class="proj-img" href="http://byeny.herokuapp.com" target="_Blank">
-            <img src="stylesheets/img/byeny.png" class="top project-img" alt="">
-            <img src="stylesheets/img/byeny1.png" class="bottom project-img" alt="">
+            <img src="stylesheets/img/byeny.png" class="top project-img" id="img1" alt="">
+            <img src="stylesheets/img/byeny1.png" class="bottom project-img" id="img1-1" alt="">
           </a>
-          <button id="show1">BYE NY</button>
+          <br>
+          <button id="show1">More Info</button>
           <div id="display-text1">
             <p>
               BYE NY is an interactive infographic application that shows all flights departing from the three major airports in and around New York; Newark Int’l Airport, LaGuardia Airport and JFK Airport. Flight colors are based on destination country and are displayed in 15 minutes “bursts”. 
             <br>
-              The application is built with Ruby and a Rails3 framework. The map was created using SVG (Scalable Vector Graph) and the flight lines were created using a d3.js canvas and data visualization. The data was taken from an API provided by www.flightstats.com which was then parsed to show only departing flights and relavant information. Front-end was built with CSS3 and JavaScript. 
+              Technologies: The application is built with Ruby and a Rails3 framework. The map was created using SVG (Scalable Vector Graph) and the flight lines were created using a d3.js canvas and data visualization. Tested with cucumber/capybara and rspec. Front-end was built with CSS3 and JavaScript. 
 
             </p>
           </div>
         </div>
         <div class="four columns projects">
           <a href="http://pool-party.herokuapp.com" target="_Blank">
-            <img src="stylesheets/img/poolparty1.png" class="top project-img" alt="">
-            <img src="stylesheets/img/poolparty2.png" class="bottom project-img" alt="">
+            <img src="stylesheets/img/poolparty1.png" class="top project-img" id="img2" alt="">
+            <img src="stylesheets/img/poolparty2.png" class="bottom project-img" id="img2-2" alt="">
           </a>
-          <button id="show2">Pool Party!</button>
+          <br>
+          <button id="show2">More Info</button>
           <div id="display-text2">
             <p>
-              Pool Party was created to help alleviate the insecurities and fear of carpooling with strangers. The app allow users to create a "trip" that would be visible to other users. Users would then be able to view profiles and give rating feedback/rating to other users. This helps save money and the planet!
+              About: Pool Party was created to help alleviate the insecurities and fear of carpooling with strangers. The app allow users to create a "trip" that would be visible to other users. Users would then be able to view profiles and give rating feedback/rating to other users. This helps save money and the planet!
               <br>
-              This app was built with Ruby on a Rails4 framework. Utilizes the latest of HTML5 and CSS3 technologies to create a welcoming user experience for the users. All users are requried to sign up with proper credentials to help ensure the safety of the users through devise authentication. Through the use of Twilio's API we are able to make request as simple as sending a request via SMS messaging to your mobile phone. 
+              Technologies: This app was built with Ruby on a Rails4 framework. Utilizes the latest of HTML5 and CSS3 technologies to create a welcoming user experience for the users. All users are requried to sign up with proper credentials to help ensure the safety of the users through devise authentication. Tested with rspec. 
             </p>
           </div>
         </div>
         <div class="columns projects" id="proj-3">
           <a href="http://heartbeatink.herokuapp.com" target="_Blank">
-            <img src="stylesheets/img/heartbeat.png" class="bottom project-img" alt="">
-            <img src="stylesheets/img/heartbeat1.png" class="top project-img" alt="">
+            <img src="stylesheets/img/heartbeat.png" class="top project-img" id="img3" alt="">
+            <img src="stylesheets/img/heartbeat1.png" class="bottom project-img" id="img3-3" alt="">
           </a>
-          <button id="show3">Heartbeat Ink</button>
+          <br>
+          <button id="show3">More Info</button>
           <div id="display-text3">
             <p>
-              Aspiring tattoo artist from the NY/NJ area
+              About: Heart Beat Ink is a website built for a friend who is an aspiring tattoo artist. His work can be viewed by clicking on the image above. 
+              <br>
+              Technologies: This website is built with Ruby on a Rails3 framework with scalability in-mind. As his business will inevitably grow, the website was designed to dynamically scale with his business.The website uses great CSS3 features along with a few JavaScript libraries to make navigating for the users a breeze. Integration of an appointment feature on the website to contact the artists directly makes scheduling a breeze. The site also has a complete admin access views taking full advantage of the MVC framework. 
             </p>
           </div>
         </div>
@@ -96,7 +102,7 @@
   </div>
   <div class="row">
     <div class="twelve columns">
-      <h3 class="title">Skills</h3>
+      <h3 class="title" id="skills">Skills</h3>
       <hr />
        <div class="row" id="content-section2">
         <div class="four columns skills-icon"><i class="fa fa-caret-square-o-down fa-5x"></i><h4 class="title">Ruby</h4></div>
@@ -108,22 +114,22 @@
     </div>
   </div>
   <div class="row">
-    <div class="large-12 columns">
-      <h3 class="title">The Face</h3>
+    <div class="twelve columns">
+      <h3 class="title" id="bio">The Face</h3>
         <hr />
-  		<div class="small-8 columns bio">
-        <div id="headshot">
-          <!-- <div id="coords"></div> -->
+  		<div class="four columns bio">
+        <div id="about-bio">
           <a href="#">
             <img id="face" src="stylesheets/img/smilepic.jpg">
           </a>
-          <h4 class="title">About</h4>
-          <p>
-            The id in “Id-Driven” refers to Sigmund Freud’s work on psychoanalytic theory of personality. Id is the only component of personsonality that is present from birth, the most innate and primal aspect of all human behaviours. I have an insatiable hunger to gain more knowledge about technologies revolving especially around web development.
-          </p>
-          <p>
-            I've always enjoyed working with technologry and this became more apparent when I learned how to write my own codes. A door to an entirely new world had opened before me and I can see that this is my future. I will enter this new world with the knowledge and skills to create things that will make the world a better place. I wish to take this journey with you!
-          </p>
+          <div class="bio">
+            <p>
+              The id in “Id-Driven” refers to Sigmund Freud’s work on psychoanalytic theory of personality. Id is the only component of personality that is present from birth, the most innate and primal aspect of all human behaviours. I have an insatiable hunger to gain more knowledge about technologies revolving especially around web development.
+            </p>
+            <p>
+              I've always enjoyed working with technology and this became more apparent when I learned how to write my own codes. A door to an entirely new world had opened before me and I can see that this is my future. I will enter this new world with the knowledge and skills to create things that will make the world a better place. I wish to take this journey with you!
+            </p>
+          </div>
         </div>
   		</div>
     </div>
