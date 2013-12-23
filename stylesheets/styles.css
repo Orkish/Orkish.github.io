@@ -133,7 +133,7 @@ h3:hover {
 }
 
 #display-text1 {
-  background-color: rgba(189, 195, 199, .3);
+  /*background-color: rgba(189, 195, 199, .3);*/
   border-radius: 10px;
   display: none;
   height: 200px;
@@ -145,7 +145,7 @@ h3:hover {
 }
 
 #display-text2 {
-  background-color: rgba(189, 195, 199, .3);
+  /*background-color: rgba(189, 195, 199, .3);*/
   border-radius: 10px;
   display: none;
   height: 200px;
@@ -156,7 +156,7 @@ h3:hover {
 }
 
 #display-text3 {
-  background-color: rgba(189, 195, 199, .3);
+  /*background-color: rgba(189, 195, 199, .3);*/
   border-radius: 10px;
   display: none;
   height: 230px;
