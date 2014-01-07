@@ -44,9 +44,16 @@ $(document).ready(function() {
     });
     function parallax() {
       var scrolled = $(window).scrollTop();
-      $('#banner-text').css('top', -(scrolled * .29) + 'px');
+      $('#banner-text').css('top', -(scrolled * 0.29) + 'px');
     }
   });
+
+////////////// Tag-ling ///////////////
+
+$(function() {
+  $("#tag1").fadeIn(2000);
+  $("#tag2").fadeIn(5500);
+});
 
 ////////////// homebanner /////////////
 
@@ -65,19 +72,18 @@ $(document).ready(function(){
   $('#recent-projects').click(function(){
     $('#content-section1').stop().slideToggle('slow');
   });
-});
 
 ///////////// display skills /////////////
 
-$(document).ready(function(){
+
   $('#skills').click(function(){
     $('#content-section2').stop().slideToggle('slow');
   });
-});
+
 
 ///////////// display about /////////////
 
-$(document).ready(function(){
+
   $('#bio').click(function(){
     $('#about-bio').stop().slideToggle('slow');
   });
