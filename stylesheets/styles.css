@@ -67,6 +67,10 @@ h3:hover {
   text-shadow: 0 0 5px #3498db;
 }
 
+.proj-title {
+  font-family: "Lato";
+}
+
 .title {
   font-family: "Lato";
   text-align: center;
