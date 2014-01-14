@@ -51,8 +51,7 @@ $(document).ready(function() {
 ////////////// Tag-ling ///////////////
 
 $(function() {
-  $("#tag1").fadeIn(2000);
-  $("#tag2").fadeIn(5500);
+  $(".tag-line").fadeIn(2000);
 });
 
 ////////////// homebanner /////////////

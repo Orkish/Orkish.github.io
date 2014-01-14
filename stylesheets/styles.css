@@ -26,7 +26,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;;
+  background-size: cover;
   height: 630px;
   display: block;
   margin: 0px auto 0;
@@ -193,18 +193,49 @@ button {
 .copy {
 }*/
 
+img {
+  z-index: 1;
+}
+
 .project-img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  opacity: .7;
+  padding: 0;
+  position: relative;
   width: 80%;  
 }
 
-.project-img:hover {
+.projectInfo {
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  position: absolute;
+  top: 0;
+  color: white;
+  background-color:rgba(52, 152, 219,.7);
+  width: 100%;
+  height: 100%;
+  line-height:100px;
+  text-align: center;
+  z-index: 10;
+  opacity: 0;
+  padding: 15px;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.project-img:hover .projectInfo {
   opacity: 1;
 }
 
+/*.project-img:hover {
+  opacity: 1;
+}
+*/
 
 div p {
   text-align: left;
@@ -216,7 +247,11 @@ div p {
   height: 200px;
   width: 200px;
 }
+/**** skills ****/
 
+div .skills-icon:hover {
+  text-shadow: 0 0 3px rgba(192, 57, 43,1.0);
+}
 /********* face image *********/
 
 #face {
@@ -242,9 +277,10 @@ div p {
 /*********** bottom nav **********/
 
 .bottom-nav {
-  background:rgba(0,0,0, 0.9);
+  background-image: url(img/black_linen.jpg);
+  margin-top: auto;
+  margin-bottom: auto;
   width: 100%;
-  height: 100px;
 }
 
 .contacts h2 {
