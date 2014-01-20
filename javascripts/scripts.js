@@ -88,62 +88,6 @@ $(document).ready(function(){
   });
 });
 
-///////////// display image ///////////////
-
-// $(window).scroll(function() {
-//   if ($(this).scrollTop() > 800) {
-//     $('#img1').fadeOut(0);
-//   } else {
-//     $('#img1').fadeIn("fast");
-//   }
-//   if ($(this).scrollTop() > 802) {
-//     $('#img1-1').fadeIn("fast");
-//   } else {
-//     $('#img1-1').fadeOut(0);
-//   }
-//   if ($(this).scrollTop() > 1510) {
-//     $('#img2').fadeOut(0);
-//   } else {
-//     $('#img2').fadeIn("fast");
-//   }
-//   if ($(this).scrollTop() > 1511) {
-//     $('#img2-2').fadeIn("fast")
-//   } else {
-//     $('#img2-2').fadeOut(0);
-//   }
-//   if ($(this).scrollTop() > 2000) {
-//     $('#img3').fadeOut(0);
-//   } else {
-//     $('#img3').fadeIn("fast");
-//   }
-//   if ($(this).scrollTop() > 2001) {
-//     $('#img3-3').fadeIn("fast");
-//   } else {
-//     $('#img3-3').fadeOut(0);
-//   }
-// });
-
-// $(window).scroll(function() {
-//   var scroll = "first",
-//                "second",
-//                "third",
-//                "fourth",
-//                "fifth",
-//                "sixth";
-//   switch (scroll) {
-//     case 'first':
-//       ($(this).scrollTop() > 800) {
-//         $('#img1').fadeOut("slow");
-//       }
-//       break;
-//     case 'second':
-
-//   }
-
-// })
-
-
-
 ///////////// display text ////////////////
 
 $(document).ready(function(){
