@@ -105,6 +105,15 @@ h3:hover {
   display: none;
 }
 
+#experiments {
+  cursor: pointer;
+}
+
+#content-section-ex {
+  display: none;
+  text-align: center;
+}
+
 #skills {
   cursor: pointer;
 }
@@ -252,6 +261,15 @@ img {
   opacity: 1;
 }
 */
+
+.content-info a {
+  font-size: 18px;
+  color: inherit;
+}
+
+.content-info a:hover {
+  text-shadow: 0 0 3px rgba(192, 57, 43,1.0);
+}
 
 div p {
   text-align: left;

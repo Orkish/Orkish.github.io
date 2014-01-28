@@ -72,6 +72,12 @@ $(document).ready(function(){
     $('#content-section1').stop().slideToggle('slow');
   });
 
+///////////// display experiments /////////////
+
+  $('#experiments').click(function(){
+    $('#content-section-ex').stop().slideToggle('slow');
+  });
+
 ///////////// display skills /////////////
 
 
