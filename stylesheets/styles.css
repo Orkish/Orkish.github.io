@@ -323,10 +323,26 @@ div .skills-icon:hover {
 }
 
 .contacts {
-  font-size: 1em;
-  color: white;
   padding-left: 10px;
   padding-top: 10px;
-  line-height: 1.5;
+  padding-bottom: 10px;
 }
+
+.contacts i {
+  margin: 0 5px 0 5px;
+}
+
+.contacts i:hover {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
