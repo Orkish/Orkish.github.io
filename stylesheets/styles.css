@@ -1,11 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 
 body {
-/*  background-color: rgba(52, 73, 94,1.0);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;;*/
   font-family: "Lato", sans-serif;
   position: relative;
 }
@@ -234,7 +229,7 @@ img {
 
 .projectInfo {
   font-family: "Lato", sans-serif;
-  font-size: 3em;
+  font-size: 17pt;
   position: absolute;
   top: 0;
   color: white;
