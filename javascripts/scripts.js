@@ -76,6 +76,7 @@ $(document).ready(function(){
 
   $('#experiments').click(function(){
     $('#content-section-ex').stop().slideToggle('slow');
+    $('#content-section-ex2').stop().slideToggle('slow');
   });
 
 ///////////// display skills /////////////

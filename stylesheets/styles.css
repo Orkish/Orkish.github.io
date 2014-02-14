@@ -106,6 +106,13 @@ h3:hover {
 
 #content-section-ex {
   display: none;
+  margin: 10px 0;
+  text-align: center;
+}
+
+#content-section-ex2 {
+  display: none;
+  margin: 10px 0;
   text-align: center;
 }
 
