@@ -1,0 +1,223 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgba(236, 240, 241,1.0);
+  text-shadow: 0 0 4px rgba(236, 240, 241,1.0);
+}
+
+/**** Creating each section ****/
+
+.section {
+  text-align: center;
+}
+
+#section1 {
+  background: url(images/retro.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#above {
+  background-color: rgba(130, 90, 44, .70);
+  color: white;
+  height: 100%;
+  z-index: 100;
+}
+
+/*#section2 {
+  background-color: rgba(52, 152, 219,1.0);
+}*/
+
+#section3 {
+  background: url(images/tools.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#above3 {
+  background-color: rgba(44, 62, 80, .6);
+  height: 100%;
+  z-index: 100;
+}
+
+#above3 h1 {
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+#skills {
+  padding-top: 150px;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.icon:hover {
+  text-shadow: 0 0 4px rgba(192, 57, 43, 1.0);
+}
+
+#section4 {
+  background: url(images/happy.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#above4 {
+  background-color: rgba(46, 204, 113, .2);
+  color: white;
+  height: 100%;
+  z-index: 100;
+  margin-top: 0;
+}
+
+#above4 h1 {
+  padding-top: 50px;
+}
+
+.contact {
+  padding: 0 15px 0 15px;
+  margin-top: 0;
+}
+/**** Project Slides ****/
+
+.controlArrow.prev {
+  
+}
+
+.controlArrow.next {
+  
+}
+
+/***** Slide 1 *****/
+
+#slide1 {
+  background: url(images/work.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide1above {
+  background-color: rgba(39, 174, 96, .30);
+  height: 100%;
+  width: 100%;
+}
+
+#slide1above h1 {
+  padding-top: 200px;
+  margin-top: 0;
+}
+
+/*#slide2 {
+  background: url(images/byeny1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+#slide2above {
+  background-color: rgba(41, 128, 185, .70); 
+  height: 100%;
+  width: 100%;
+}
+
+#slide2above h1 {
+  padding-top: 200px;
+  margin-top: 0;
+}
+
+#slide3 {
+  background: url(images/poolparty.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide3above {
+  background-color: rgba(211, 84, 0, .70);
+  height: 100%;
+  width: 100%;
+}
+
+#slide3above h1 {
+  padding-top: 200px;
+  margin-top: 0;
+}
+
+#slide4 {
+  background: url(images/heartbeat.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide4above {
+  background-color: rgba(142, 68, 173, .70);
+  height: 100%;
+  width: 100%;
+}
+
+#slide4above h1 {
+  padding-top: 200px;
+  margin-top: 0;
+}
+
+#slide5 {
+  background: url(images/experiment.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide5above {
+  background-color: rgba(231, 76, 60, .70);
+  height: 100%;
+  width: 100%;
+}
+
+#slide5above h1 {
+  padding-top: 200px;
+  margin-top: 0;
+}
+
+/**** Video ****/
+
+.screen {
+  position: relative;
+  height: 100%; 
+  width: 100%; /*  NOTE:numVideos/100%  */
+  float: left;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
