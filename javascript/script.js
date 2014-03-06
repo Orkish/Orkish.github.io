@@ -3,7 +3,7 @@
 
 //// Fullpage js ////
 
-$(document).ready(function() {
+$(window).load(function() {
   $('#above').fadeIn('slow', 1500),
 
   $.fn.fullpage({
