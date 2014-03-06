@@ -48,7 +48,8 @@ $(document).ready(function() {
     var slideB = $('#slide3');
   
     BV.init();
-    slideA.ready(function(){
+
+    $('.controlArrow.next').click(function(){
       BV.show(vids[0],{ambient:true});
     });
   });
