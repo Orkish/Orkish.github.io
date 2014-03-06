@@ -1,25 +1,22 @@
-///// Video js ////
-
-// window.onload = function () {
-//   videojs("video_1", {"autoplay": true, "controls": false, "preload": "auto", "loop": true, "muted": true}, function(){
-//   });
-// };
+///// Page load ////
 
 
 //// Fullpage js ////
 
 $(document).ready(function() {
+  $('#above').fadeIn('slow', 1500),
+
   $.fn.fullpage({
     verticalCentered: true,
     resize : true,
     slidesColor : 'none',
-    anchors:['firstSlide', 'secondSlide'],
+    anchors:[],
     scrollingSpeed: 400,
     easing: 'easeInQuart',
     menu: false,
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['firstSlide', 'secondSlide', 'thridslide', 'fourthslide'],
+    navigationTooltips: [],
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
     loopBottom: false,
