@@ -11,8 +11,8 @@ $(window).load(function() {
     resize : true,
     slidesColor : 'none',
     anchors:[],
-    scrollingSpeed: 400,
-    easing: 'easeInQuart',
+    scrollingSpeed: 1300,
+    easing: 'easeInOutQuint',
     menu: false,
     navigation: true,
     navigationPosition: 'right',
@@ -41,16 +41,24 @@ $(window).load(function() {
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
     onSlideLeave: function(anchorLink, index, slideIndex, direction){}
   }),
-  $(function() {
-    var BV = new $.BigVideo();
-    var vids = ['stylesheet/videos/byeny.mp4', 'stylesheet/videos/poolparty.mp4'];
-    var slideA = $('#slide2');
-    var slideB = $('#slide3');
-  
-    BV.init();
+  $(document).ready(function(){
+    $(function() {
+      var BV = new $.BigVideo();
+      var vids = ['stylesheet/videos/byeny.mp4', 'stylesheet/videos/poolparty.mp4'];
+      var slideA = $('#slide2');
+      var slideB = $('#slide3');
+    
+      BV.init();
 
-    $('.controlArrow.next').click(function(){
-      BV.show(vids[0],{ambient:true});
+      $('.controlArrow.next').click(function(){
+        BV.show(vids[0],{ambient:true});
+      });
+    });
+    $('.arrow-down').click(function(){
+      $.fn.fullpage.moveSectionDown();
+    }),
+    $('.arrow-up').click(function(){
+      $.fn.fullpage.moveSectionUp();
     });
   });
 });
