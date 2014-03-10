@@ -11,7 +11,7 @@ $(window).load(function() {
     resize : true,
     slidesColor : 'none',
     anchors:[],
-    scrollingSpeed: 1300,
+    scrollingSpeed: 1000,
     easing: 'easeInOutQuint',
     menu: false,
     navigation: true,
