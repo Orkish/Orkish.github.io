@@ -41,7 +41,6 @@ $(window).load(function() {
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
     onSlideLeave: function(anchorLink, index, slideIndex, direction){}
   }),
-  $(document).ready(function(){
     $(function() {
       var BV = new $.BigVideo();
       var vids = ['stylesheet/videos/byeny.mp4', 'stylesheet/videos/poolparty.mp4'];
@@ -53,13 +52,13 @@ $(window).load(function() {
       $('.controlArrow.next').click(function(){
         BV.show(vids[0],{ambient:true});
       });
-    });
+    }),
+    
     $('.arrow-down').click(function(){
       $.fn.fullpage.moveSectionDown();
     }),
     $('.arrow-up').click(function(){
       $.fn.fullpage.moveSectionUp();
-    });
   });
 });
 
