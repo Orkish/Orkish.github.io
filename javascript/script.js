@@ -4,7 +4,6 @@
 //// Fullpage js ////
 
 $(window).load(function() {
-  $('#above').fadeIn('slow', 1500),
 
   $.fn.fullpage({
     verticalCentered: true,
@@ -43,7 +42,7 @@ $(window).load(function() {
   }),
     $(function() {
       var BV = new $.BigVideo();
-      var vids = ['stylesheet/videos/byeny.mp4', 'stylesheet/videos/poolparty.mp4'];
+      var vids = ['stylesheet/videos/byeny.mp4'];
       var slideA = $('#slide2');
       var slideB = $('#slide3');
     
