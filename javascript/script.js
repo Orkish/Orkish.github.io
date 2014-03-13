@@ -5,7 +5,7 @@
 
 $(window).load(function() {
   $(".loader").fadeOut("slow");
-  
+
   $.fn.fullpage({
     verticalCentered: true,
     resize : true,
